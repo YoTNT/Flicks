@@ -32,7 +32,7 @@ public class MovieActivity extends AppCompatActivity {
     // Add a RecyclerView to your activity to display the items - DONE
     // Create a custom row layout XML file to visualize the item - DONE
     // Create a RecyclerView.Adapter and ViewHolder to render the item - DONE
-    // Bind the adapter to the data source to populate the RecyclerView
+    // Bind the adapter to the data source to populate the RecyclerView - DONE
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
