@@ -52,8 +52,7 @@ public class DetailActivity extends YouTubeBaseActivity {
 
 
         AsyncHttpClient client = new AsyncHttpClient();
-        // movie.getMovieId() - this code could be replaced to 209112 one line below which is hard coded to 209112
-        client.get(String.format(TRAILERS_API, 209112), new JsonHttpResponseHandler() {
+        client.get(String.format(TRAILERS_API, movie.getMovieId()), new JsonHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
                 try {
